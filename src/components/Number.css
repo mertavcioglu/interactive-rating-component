@@ -1,0 +1,26 @@
+.number-container {
+  background-color: hsl(213, 19%, 23%);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  cursor: pointer;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: white;
+  color: hsl(217, 12%, 63%);
+  padding-top: 4px;
+}
+
+.number-container:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  transition: 0.35s ease;
+}
+
+.number-clicked {
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+}
